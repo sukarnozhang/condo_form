@@ -7,7 +7,7 @@ import styles from "../css/Navbar.modules.css";
 function Navbar() {
   return (
     <div className="navbar">
-        <p style = {{ fontSize : '22px', marginRight: 'auto', marginLeft: '15px', fontWeight: 'bold' }} >
+        <p style = {{ fontSize : '22px', marginRight: 'auto', marginLeft: '15px' }} >
             Condo Online Form
         </p>
         <House 

@@ -1,14 +1,25 @@
 //Login.js
 
-import { Link } from "react-router-dom";
-import { BookBookmark, House, ShoppingCart } from "phosphor-react";
-import styles from "../css/Navbar.modules.css";
+import styles from "../css/Login.modules.css";
 
 function Login() {
   return (
-    <div className="navbar">
-        <p>Username</p>
-        <p>Password</p>
+    <div className="login">
+        <div>
+            Login
+        </div>
+        <form>
+            <div>
+                <input placeholder="Email Address"/>
+            </div>
+            <div>
+                <input placeHolder="Password" />
+            </div>
+            <div>
+                <a>Forget Password</a>
+                <button>Submit</button>
+            </div>
+        </form>
     </div>
   );
 }
