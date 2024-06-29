@@ -11,7 +11,7 @@ function Navbar() {
             Condo Online Form
         </p>
         <House 
-            size = {32}
+            size = { 32 }
             style = {{ justifyContent: "flex-end", marginRight: '15px'}}
         />
     </div>
