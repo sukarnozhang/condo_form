@@ -1,0 +1,22 @@
+.register {
+    margin-top:10px;
+    margin-left:10px;
+    width: 100%;
+}
+
+.inputBox {
+    margin-top: 10px;
+    font-size: 18px;
+    width: 410px
+}
+
+.column_container {
+    display: grid
+}
+
+.button {
+    background-color: #6D41FC;
+    color: white;
+    font-size: 18px;
+    margin-left: 330px;
+}

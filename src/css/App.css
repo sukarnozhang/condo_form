@@ -1,24 +1,26 @@
-.App {  
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    gap: 0px 0px;
-    grid-auto-flow: row;
-    grid-template-areas:
-      "Navbar Navbar Navbar"
-      ". login ."
-      ". login ."
-      ". login ."
-      ". login ."
-      ". login ."
-      ". . ."
-      ". . ."
-      ". . ."
-      ". . ."
-      ". . .";
-  }
-  
-  .Navbar { grid-area: Navbar; }
-  
-  .login { grid-area: login; }
+.container {  
+  display: grid;
+
+  grid-template-columns: 0.6fr 1fr 1fr 1fr;
+  grid-template-rows: 0.1fr 1fr 1fr 0.1fr;
+  gap: 0px 0px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "nav nav nav nav"
+    "sidebar main main main"
+    "sidebar main main main"
+    "footer footer footer footer";
+}
+
+.nav { 
+  grid-area: nav;
+
+}
+
+.sidebar { grid-area: sidebar;}
+
+.main { grid-area: main;}
+
+.footer { grid-area: footer;}
+
   
